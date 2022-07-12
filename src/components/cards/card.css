@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.product {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 18rem;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    border-radius: .7rem;
+}
+
+.product .imgbox {
+    height: 18rem;
+    overflow: hidden;
+
+}
+
+.specifies {
+    position: absolute;
+    width: 100%;
+    bottom: -6rem;
+    background: rgba(255, 255, 255, 0.839);
+    padding: 10px;
+    transition: .5s
+}
+
+.product:hover .specifies {
+    bottom: 0
+}
+
+
+.price {
+    font-weight: bolder;
+}
+
+.product-description {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}

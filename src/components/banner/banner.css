@@ -1,0 +1,16 @@
+.banner-main {
+    min-height: 80vh;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner-main-title {
+    font-size: 5rem;
+    font-style: italic;
+    color: rgba(0, 91, 109, 0.611);
+}
+
+.banner-main-subtitle {
+    font-family: sans-serif;
+    color: rgb(153, 153, 153);
+}
